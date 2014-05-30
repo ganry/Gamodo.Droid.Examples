@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryApp", "Gallery\GalleryApp.csproj", "{03962384-5237-40D3-88F7-9B0F44FE9DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualKeyboards", "VirtualKeyboards\VirtualKeyboards.csproj", "{8FB8993E-0E00-4625-B431-88551E69BB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuExample", "MenuExample\MenuExample.csproj", "{DE0C168A-6747-44F3-9691-86660D04CB39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB8993E-0E00-4625-B431-88551E69BB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB8993E-0E00-4625-B431-88551E69BB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB8993E-0E00-4625-B431-88551E69BB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB8993E-0E00-4625-B431-88551E69BB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0C168A-6747-44F3-9691-86660D04CB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0C168A-6747-44F3-9691-86660D04CB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0C168A-6747-44F3-9691-86660D04CB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0C168A-6747-44F3-9691-86660D04CB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Gallery\GalleryApp.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
