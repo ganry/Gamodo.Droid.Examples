@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="true">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:" />
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textCapWords" />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress" />
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:" />
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPassWord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:" />
+        <EditText
+            android:id="@+id/PassWord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textPassword" />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Adress:" />
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:inputType="text|textAutoCorrect" />
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="State" />
+        <Spinner
+            android:id="@+id/State"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvZip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Zip" />
+        <EditText
+            android:id="@+id/Zip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

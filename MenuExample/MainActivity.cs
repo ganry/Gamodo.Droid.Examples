@@ -21,13 +21,11 @@ namespace MenuExample
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
 			
             button.Click += delegate
             {
-                button.Text = string.Format("{0} clicks!", count++);
+                    StartActivity(typeof(XmlMenuActivity));
             };
         }
 
@@ -60,19 +58,42 @@ namespace MenuExample
                 new Java.Lang.String("Menu Item 2"));
 
             IMenuItem menuItem3 =
-                menu.Add(MenuGroup, menuItemId + 20, menuItemOrder + 2,
-                    new Java.Lang.String("Menu Item 3"));
-            ISubMenu sub = menu.AddSubMenu(0, menuItemOrder + 30,
-                menuItemOrder + 3, new Java.Lang.String("Submenu 1"));
+                menu.Add(
+                    MenuGroup, 
+                    menuItemId + 20, 
+                    menuItemOrder + 2,
+                    new Java.Lang.String("Menu Item 3")
+                );
+
+            ISubMenu sub = menu.AddSubMenu(
+                0, 
+                menuItemOrder + 30,
+                menuItemOrder + 3, 
+                new Java.Lang.String("Submenu 1")
+            );
+
             sub.SetHeaderIcon(Resource.Drawable.Icon);
             sub.SetIcon(Resource.Drawable.Icon);
-            IMenuItem submenuItem = sub.Add(0, menuItemId + 40, menuItemOrder + 4,
-                new Java.Lang.String("Submenu Item"));
-            IMenuItem submenuItem2 =
-                sub.Add(MenuGroup, menuItemId + 50, menuItemOrder + 5,
+
+            IMenuItem submenuItem = sub.Add(
+                0, 
+                menuItemId + 40, 
+                menuItemOrder + 4,
+                new Java.Lang.String("Submenu Item")
+            );
+
+            IMenuItem submenuItem2 = 
+                sub.Add(
+                    MenuGroup, 
+                    menuItemId + 50, 
+                    menuItemOrder + 5,
                     new Java.Lang.String("sub-1")).SetCheckable(true);
+
             IMenuItem submenuItem3 =
-                sub.Add(MenuGroup, menuItemId + 60, menuItemOrder + 6,
+                sub.Add(
+                    MenuGroup, 
+                    menuItemId + 60, 
+                    menuItemOrder + 6,
                     new Java.Lang.String("sub-2")).SetCheckable(true);
             return true;
         }

@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualKeyboards", "Virtual
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuExample", "MenuExample\MenuExample.csproj", "{DE0C168A-6747-44F3-9691-86660D04CB39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding", "GeoCoding\GeoCoding.csproj", "{3A5CCEC8-E84B-47F5-A8AD-DC1538191806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkDetection", "NetworkDetection\NetworkDetection.csproj", "{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopUpWindow", "PopUpWindow\PopUpWindow.csproj", "{73B7DA8F-529C-4D6D-85A4-10EE13C9DC58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +23,22 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03962384-5237-40D3-88F7-9B0F44FE9DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5CCEC8-E84B-47F5-A8AD-DC1538191806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5CCEC8-E84B-47F5-A8AD-DC1538191806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5CCEC8-E84B-47F5-A8AD-DC1538191806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5CCEC8-E84B-47F5-A8AD-DC1538191806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B7DA8F-529C-4D6D-85A4-10EE13C9DC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B7DA8F-529C-4D6D-85A4-10EE13C9DC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B7DA8F-529C-4D6D-85A4-10EE13C9DC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B7DA8F-529C-4D6D-85A4-10EE13C9DC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D4BEB0-FABE-43C8-B8E1-710D4E50D9C2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{8FB8993E-0E00-4625-B431-88551E69BB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8FB8993E-0E00-4625-B431-88551E69BB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FB8993E-0E00-4625-B431-88551E69BB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,7 +49,10 @@ Global
 		{DE0C168A-6747-44F3-9691-86660D04CB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Gallery\GalleryApp.csproj
+		StartupItem = PopUpWindow\PopUpWindow.csproj
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		$1.inheritsSet = Mono
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
