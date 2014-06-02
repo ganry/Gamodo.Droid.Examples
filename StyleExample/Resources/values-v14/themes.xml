@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.NoTitlebar" parent="Theme.Sherlock.Light">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  
+	<style name="Theme.Styled" parent="@style/Theme.Sherlock.Light">
+		<item name="android:actionBarStyle">@style/ActionBar.Solid.Styled</item>
+	</style>
+
+	<style name="ActionBar.Solid.Styled" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+		<item name="android:background">@drawable/ab_solid_actionbar</item>
+		<item name="android:titleTextStyle">@style/ActionBar.Text</item>
+	</style>
+
+	<style name="ActionBar.Text" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+		<item name="android:textSize">18dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+</resources>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="TweetText"><![CDATA[Check out my new homepage with free stuff, my work and also my blog at <b>http://www.henrykeller.eu</b><br><h5>yesterday</h5>]]></string>
+	<string name="app_name">StyleExample</string>
+</resources>

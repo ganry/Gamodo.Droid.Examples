@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    android:background="@drawable/menu_item_style">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/Image"
+            android:src="@drawable/user_login"
+            android:layout_gravity="left"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:cropToPadding="true"
+            android:padding="10dp" />
+        <LinearLayout
+            android:id="@+id/Text"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/Image"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/MenuTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF9ea7b3"
+                android:textSize="15dip"
+                android:textStyle="bold"
+                android:text="Bereitschafts-Kalendar" />
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:paddingRight="10dip"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

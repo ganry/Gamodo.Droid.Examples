@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <Button
+        android:text="Button"
+        android:id="@+id/button1"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates"
+        android:width="200dp" />
+    <Button
+        android:text="Button"
+        android:id="@+id/button2"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates" />
+    <Button
+        android:text="Button"
+        android:id="@+id/button3"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates" />
+    <Button
+        android:text="Button"
+        android:id="@+id/button4"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates" />
+    <Button
+        android:text="Button"
+        android:id="@+id/button5"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates" />
+    <Button
+        android:text="Button"
+        android:id="@+id/button6"
+        style="@style/ButtonTest"
+        android:background="@drawable/BtnStates" />
+</LinearLayout>

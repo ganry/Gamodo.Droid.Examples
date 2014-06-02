@@ -1,9 +1,12 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PopUpWindow\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="PopUpWindow\MainActivity.cs" Line="14" Column="6" />
-      <File FileName="PopUpWindow\Resources\menu\popup_menu.xml" Line="9" Column="8" />
+      <File FileName="StyleExample\MainActivity.cs" Line="68" Column="63" />
+      <File FileName="StyleExample\Adapter\MenuAdapter.cs" Line="35" Column="32" />
+      <File FileName="StyleExample\LoginActivity.cs" Line="17" Column="43" />
+      <File FileName="StyleExample\BaseActivity.cs" Line="30" Column="49" />
+      <File FileName="StyleExample\TwitterActivity.cs" Line="23" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -13,11 +16,14 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.VirtualKeyboards MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
-  <MonoDevelop.Ide.ItemProperties.MenuExample AndroidDeviceId-Debug="0019b0100a827e" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
-  <MonoDevelop.Ide.ItemProperties.GalleryApp MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
+  <MonoDevelop.Ide.ItemProperties.PopUpWindow AndroidDeviceId-Debug="0019b0100a827e" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.NetworkDetection AndroidDeviceId-Debug="0019b0100a827e" />
+  <MonoDevelop.Ide.ItemProperties.CustomDialogFragmentSample AndroidDeviceId-Debug="0019b0100a827e" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.GooglePlay MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.GeoCoding MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
-  <MonoDevelop.Ide.ItemProperties.NetworkDetection AndroidDeviceId-Debug="0019b0100a827e" />
-  <MonoDevelop.Ide.ItemProperties.PopUpWindow AndroidDeviceId-Debug="0019b0100a827e" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.MenuExample AndroidDeviceId-Debug="0019b0100a827e" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.VirtualKeyboards MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
+  <MonoDevelop.Ide.ItemProperties.9PatchButton MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
+  <MonoDevelop.Ide.ItemProperties.StyleExample MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
+  <MonoDevelop.Ide.ItemProperties.GalleryApp MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0019b0100a827e" />
 </Properties>
