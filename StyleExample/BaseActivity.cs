@@ -1,9 +1,3 @@
-/// <summary>
-/// Kälte Eckert app
-/// 
-/// Copyright (c) 2014 medialis.net, Henry Keller <keller@medialis.net>
-/// </summary>
-
 using System;
 using Android.App;
 using Android.Content;
