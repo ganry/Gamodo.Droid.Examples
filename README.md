@@ -9,7 +9,7 @@ Just some simple Xamarin Examples. Includes some custom UI Designs and examples 
 
     The MIT License (MIT)
 
-    Copyright (c) 2015 Henry Keller <henry@creativemind.info>
+    Copyright (c) 2015 Henry Keller <henry@virtualgeek.eu>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
